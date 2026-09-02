@@ -1,191 +1,111 @@
-# 🚀 Sprint 1 — SafeFlow API Logística 3
+# 📌 MVP - SafeFlow
 
-> **[DIGITAR AQUI O TÍTULO OU FOCO DA SPRINT 1]**
+## 🎯 Objetivo do MVP
+ 
+- **Qual problema resolve?**  
+  [PREENCHER]
 
----
+- **Qual hipótese será validada?**  
+  [PREENCHER]
 
-# 📑 Índice
-
-| Seção | Link |
-|------|------|
-| 🎯 Objetivo da Sprint | [Clique aqui](#objetivo) |
-| 📋 Backlog da Sprint | [Clique aqui](#backlog) |
-| 👥 Responsabilidades | [Clique aqui](#responsabilidades) |
-| 🛠 Desenvolvimento | [Clique aqui](#desenvolvimento) |
-| 📊 Resultados | [Clique aqui](#resultados) |
-| 📸 Evidências | [Clique aqui](#evidencias) |
-| ⚠️ Dificuldades | [Clique aqui](#dificuldades) |
-| ✅ Conclusão | [Clique aqui](#conclusao) |
+- **Qual valor será entregue ao usuário final?**  
+  [PREENCHER]
 
 ---
 
-<a name="objetivo"></a>
+## 📝 Descrição da Solução
+  
+- **Funcionalidades principais incluídas**  
+  [PREENCHER]
 
-# 🎯 Objetivo da Sprint
-
-**[DIGITAR AQUI O OBJETIVO PRINCIPAL DA SPRINT 1]**
-
-### Objetivos específicos
-
-- [DIGITAR AQUI]
-- [DIGITAR AQUI]
-- [DIGITAR AQUI]
-- [DIGITAR AQUI]
+- **Limitações conhecidas**  
+  [PREENCHER]
+  
+- **Escopo reduzido**  
+  [PREENCHER]
 
 ---
 
-<a name="backlog"></a>
+## 👥 Personas / Usuários-Alvo
 
-# 📋 Backlog da Sprint
+<p align="justify">
+<strong>[PERSONA / USUÁRIO 1]:</strong> [PREENCHER]
+</p>
 
-| Rank | Prioridade | Atividade / User Story | Responsável | Status |
-|------|------------|------------------------|-------------|--------|
-| 1 | [Alta/Média/Baixa] | [DIGITAR AQUI] | [RESPONSÁVEL] | [STATUS] |
-| 2 | [Alta/Média/Baixa] | [DIGITAR AQUI] | [RESPONSÁVEL] | [STATUS] |
-| 3 | [Alta/Média/Baixa] | [DIGITAR AQUI] | [RESPONSÁVEL] | [STATUS] |
-| 4 | [Alta/Média/Baixa] | [DIGITAR AQUI] | [RESPONSÁVEL] | [STATUS] |
-| 5 | [Alta/Média/Baixa] | [DIGITAR AQUI] | [RESPONSÁVEL] | [STATUS] |
+<p align="justify">
+<strong>[PERSONA / USUÁRIO 2]:</strong> [PREENCHER]
+</p>
 
----
-
-<a name="responsabilidades"></a>
-
-# 👥 Responsabilidades da Equipe
-
-| Integrante | Responsabilidade na Sprint |
-|------------|----------------------------|
-| Ana Clara Dias | [DIGITAR AQUI] |
-| Kauan Souza | [DIGITAR AQUI] |
-| Davi Pais | [DIGITAR AQUI] |
-| Mariana Leal | [DIGITAR AQUI] |
+<p align="justify">
+<strong>[PERSONA / USUÁRIO 3]:</strong> [PREENCHER]
+</p>
 
 ---
 
-<a name="desenvolvimento"></a>
+## 🔑 User Stories (Backlog do MVP)
 
-# 🛠 Desenvolvimento
-
-## 1. [TÍTULO DA ATIVIDADE]
-
-**Descrição:**  
-[DIGITAR AQUI O QUE FOI DESENVOLVIDO]
-
-**Ferramentas utilizadas:**  
-[DIGITAR AQUI]
-
-**Resultado:**  
-[DIGITAR AQUI]
+| Rank | Prioridade | Pergunta | User Story | Estimativa |
+|------|------------|----------|------------|------------|
+| [ ] | [ ] | [PREENCHER] | [PREENCHER] | [ ] |
+| [ ] | [ ] | [PREENCHER] | [PREENCHER] | [ ] |
+| [ ] | [ ] | [PREENCHER] | [PREENCHER] | [ ] |
+| [ ] | [ ] | [PREENCHER] | [PREENCHER] | [ ] |
+| [ ] | [ ] | [PREENCHER] | [PREENCHER] | [ ] |
 
 ---
 
-## 2. [TÍTULO DA ATIVIDADE]
+## 📅 Sprint(s) Relacionadas
 
-**Descrição:**  
-[DIGITAR AQUI O QUE FOI DESENVOLVIDO]
-
-**Ferramentas utilizadas:**  
-[DIGITAR AQUI]
-
-**Resultado:**  
-[DIGITAR AQUI]
-
----
-
-## 3. [TÍTULO DA ATIVIDADE]
-
-**Descrição:**  
-[DIGITAR AQUI O QUE FOI DESENVOLVIDO]
-
-**Ferramentas utilizadas:**  
-[DIGITAR AQUI]
-
-**Resultado:**  
-[DIGITAR AQUI]
+| Sprint | Entregas Principais | Status |
+|--------|--------------------|--------|
+| 01 | [PREENCHER] | [STATUS] |
+| 01 | [PREENCHER] | [STATUS] |
+| 01 | [PREENCHER] | [STATUS] |
+| 01 | [PREENCHER] | [STATUS] |
+| 01 | [PREENCHER] | [STATUS] |
 
 ---
 
-<a name="resultados"></a>
+## 📊 Critérios de Aceitação
 
-# 📊 Resultados da Sprint
-
-**[DIGITAR AQUI UM RESUMO DOS RESULTADOS OBTIDOS NA SPRINT]**
-
-### Principais entregas
-
-- ✅ [DIGITAR AQUI]
-- ✅ [DIGITAR AQUI]
-- ✅ [DIGITAR AQUI]
-- ✅ [DIGITAR AQUI]
+- [PREENCHER]
+- [PREENCHER]
+- [PREENCHER]
 
 ---
 
-<a name="evidencias"></a>
+## 📈 Métricas de Validação
 
-# 📸 Evidências
+- **Número de usuários que testaram o MVP**
+  - [PREENCHER]
 
-### Evidência 01
+- **Feedback qualitativo (positivo/negativo)**
+  - [PREENCHER]
 
-**[INSERIR AQUI IMAGEM, GRÁFICO, PRINT OU LINK]**
-
-Descrição:  
-[DIGITAR AQUI]
-
----
-
-### Evidência 02
-
-**[INSERIR AQUI IMAGEM, GRÁFICO, PRINT OU LINK]**
-
-Descrição:  
-[DIGITAR AQUI]
+- **Indicadores de negócio**
+  - [PREENCHER]
 
 ---
 
-### Evidência 03
+## 🚀 Próximos Passos
 
-**[INSERIR AQUI IMAGEM, GRÁFICO, PRINT OU LINK]**
-
-Descrição:  
-[DIGITAR AQUI]
-
----
-
-<a name="dificuldades"></a>
-
-# ⚠️ Dificuldades e Ajustes
-
-### Dificuldades encontradas
-
-- [DIGITAR AQUI]
-- [DIGITAR AQUI]
-- [DIGITAR AQUI]
-
-### Soluções adotadas
-
-- [DIGITAR AQUI]
-- [DIGITAR AQUI]
-- [DIGITAR AQUI]
+- [PREENCHER]
+- [PREENCHER]
+- [PREENCHER]
 
 ---
 
-<a name="conclusao"></a>
+## 📂 Anexos / Evidências
 
-# ✅ Conclusão da Sprint 1
+- 🔗 **Vídeo:**  
+  [ADICIONAR LINK]
 
-**[DIGITAR AQUI A CONCLUSÃO DA SPRINT]**
+- 📄 **Documentos:**  
+  [ADICIONAR]
 
-### Status final
+- 📊 **Dashboard / Protótipo:**  
+  [ADICIONAR]
 
-**Sprint 1:** [EM ANDAMENTO / FINALIZADA]
+- 💻 **Código / Scripts:**  
+  [ADICIONAR]
 
-**Data de início:** [DATA]
-
-**Data de encerramento:** [DATA]
-
----
-
-## 🔗 Navegação
-
-⬅️ [Voltar para o README principal](README.md)
-
-➡️ **Próxima Sprint:** [Sprint 2](sp2.md)
