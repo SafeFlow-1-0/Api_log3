@@ -1,6 +1,8 @@
-# 📌 SafeFlow – API Logística 3
+# 📌 SafeFlow – Otimização das Rotas das Equipes de Fiscalização do IPEM-SP
 
-> **[DIGITAR AQUI UMA BREVE DESCRIÇÃO DO PROJETO]**
+Projeto desenvolvido no 3º semestre do curso de Logística da Fatec São José dos Campos, no contexto da Aprendizagem por Projetos Integradores (API).
+
+O projeto tem como objetivo desenvolver uma solução baseada em Pesquisa Operacional para otimizar o planejamento das equipes de fiscalização do IPEM-SP, utilizando dados históricos de inspeções para reduzir deslocamentos e tempos de viagem, balancear a carga de trabalho e apoiar o planejamento das operações.
 
 ---
 
@@ -11,6 +13,9 @@
 | 📊 Projeto | [Clique aqui](#projeto) |
 | 👥 Equipe | [Clique aqui](#equipe) |
 | 🎯 Objetivo do Projeto | [Clique aqui](#objetivo) |
+| ❓ Questões para Análise | [Clique aqui](#questoes) |
+| ⚙️ Funcionalidades | [Clique aqui](#funcionalidades) |
+| 📋 Requisitos do Projeto | [Clique aqui](#requisitos) |
 | 🛠 Tecnologias Utilizadas | [Clique aqui](#tecnologias) |
 | 🗂 Backlog do Produto | [Clique aqui](#backlog) |
 | 📅 Registro das Sprints | [Clique aqui](#sprints) |
@@ -21,15 +26,26 @@
 
 # 📊 Projeto
 
-**[DIGITAR AQUI A DESCRIÇÃO COMPLETA DO PROJETO]**
+## Otimização das Rotas das Equipes de Fiscalização do IPEM-SP
+
+O IPEM-SP — Instituto de Pesos e Medidas do Estado de São Paulo — realiza fiscalizações de instrumentos e equipamentos, como balanças e bombas de combustível.
+
+O desafio deste projeto consiste em analisar os dados históricos das fiscalizações e desenvolver uma solução capaz de propor uma distribuição otimizada das atividades entre as equipes.
+
+A solução deverá utilizar conceitos de Pesquisa Operacional e modelos matemáticos de roteirização para comparar a operação historicamente realizada com um cenário otimizado.
 
 ### Principais pontos
 
-- [DIGITAR AQUI]
-- [DIGITAR AQUI]
-- [DIGITAR AQUI]
-- [DIGITAR AQUI]
-- [DIGITAR AQUI]
+- Analisar o histórico de fiscalizações;
+- Tratar e organizar a base de dados;
+- Analisar a distribuição histórica das equipes;
+- Construir uma matriz de distâncias e tempos;
+- Desenvolver um modelo matemático de otimização;
+- Implementar o modelo em Python;
+- Comparar rotas históricas e otimizadas;
+- Balancear a carga de trabalho entre as equipes;
+- Calcular indicadores de desempenho;
+- Demonstrar os possíveis ganhos de eficiência.
 
 ---
 
@@ -44,20 +60,77 @@
 | Team Member | Davi Pais | [LinkedIn](https://linkedin.com/in/davi-pais-340989359) \| [GitHub](https://github.com/DaviPaisKitada) |
 | Team Member | Mariana Leal | [LinkedIn](https://linkedin.com/in/mariana-leal-a708b8335) \| [GitHub](https://github.com/marileal071415-create) |
 
+> As funções da equipe poderão ser atualizadas conforme a organização definida durante o desenvolvimento do projeto.
+
 ---
 
 <a name="objetivo"></a>
 
 # 🎯 Objetivo do Projeto
 
-**[DIGITAR AQUI O OBJETIVO GERAL DO PROJETO]**
+Desenvolver uma proposta de otimização e escalonamento das equipes de fiscalização do IPEM-SP, aplicando modelos de Pesquisa Operacional aos dados históricos da regional de São José dos Campos.
 
-### Objetivos específicos
+A solução deverá apoiar o planejamento das operações buscando:
 
-- [DIGITAR AQUI]
-- [DIGITAR AQUI]
-- [DIGITAR AQUI]
-- [DIGITAR AQUI]
+- Minimizar os deslocamentos das equipes;
+- Reduzir o tempo de viagem;
+- Balancear a carga de trabalho;
+- Melhorar a distribuição das fiscalizações;
+- Apoiar o planejamento das equipes;
+- Comparar o cenário histórico com um cenário otimizado;
+- Demonstrar os ganhos de eficiência obtidos.
+
+### Resultado esperado
+
+Ao final do projeto, espera-se obter um modelo matemático de roteirização baseado em **VRP / Workforce Routing**, capaz de apoiar o planejamento das equipes de fiscalização.
+
+O resultado deverá permitir comparar os cenários histórico e otimizado por meio de indicadores e visualizações.
+
+---
+
+<a name="questoes"></a>
+
+# ❓ Questões para Análise
+
+Durante o desenvolvimento do projeto, a equipe deverá buscar responder às seguintes questões:
+
+1. Como as equipes foram distribuídas historicamente?
+2. Qual seria a melhor distribuição das fiscalizações entre as equipes?
+3. Qual a redução potencial de quilômetros e tempo de deslocamento?
+4. Como balancear a carga de trabalho?
+5. Quais municípios e tipos de fiscalização concentram maior demanda?
+6. Como comparar a operação real com a otimizada?
+
+---
+
+<a name="funcionalidades"></a>
+
+# ⚙️ Funcionalidades da Plataforma
+
+A solução deverá contemplar os seguintes módulos:
+
+- 🗺️ Mapa das fiscalizações;
+- 🚗 Rotas históricas e rotas otimizadas;
+- 📊 Dashboard de indicadores;
+- 🔄 Simulação de cenários;
+- 📄 Exportação de relatórios.
+
+---
+
+<a name="requisitos"></a>
+
+# 📋 Requisitos do Projeto
+
+| Código | Requisito |
+|--------|-----------|
+| RN.P.1 | Tratar os dados históricos |
+| RN.P.2 | Construir matriz de distâncias e tempos |
+| RN.P.3 | Modelar o problema em Programação Inteira Mista |
+| RN.P.4 | Implementar em Python (OR-Tools/Pyomo) |
+| RN.P.5 | Desenvolver dashboard |
+| RN.P.6 | Comparar cenário real e otimizado |
+| RN.P.7 | Calcular indicadores de desempenho |
+| RN.P.8 | Elaborar relatório técnico |
 
 ---
 
@@ -65,14 +138,15 @@
 
 # 🛠 Tecnologias Utilizadas
 
-> **[PREENCHER CONFORME AS TECNOLOGIAS DEFINIDAS PARA O PROJETO]**
+### Tecnologias previstas
 
-- 💻 [TECNOLOGIA / FERRAMENTA]
-- 📊 [TECNOLOGIA / FERRAMENTA]
-- 🐍 [TECNOLOGIA / FERRAMENTA]
-- 🗂 [TECNOLOGIA / FERRAMENTA]
-- ☁️ [TECNOLOGIA / FERRAMENTA]
-- 🔧 [TECNOLOGIA / FERRAMENTA]
+- 🐍 **Python** — execução dos modelos de Pesquisa Operacional;
+- 🧮 **OR-Tools / Pyomo** — alternativas previstas para implementação do modelo de otimização;
+- 📊 **BI** — visualização dos cenários histórico e otimizado;
+- 💻 **GitHub** — versionamento, documentação e organização técnica do projeto;
+- 📄 **Office** — apresentações, relatório e documentação.
+
+> Outras tecnologias poderão ser adicionadas conforme a evolução e as necessidades do projeto.
 
 ---
 
@@ -80,18 +154,18 @@
 
 # 🗂 Backlog do Produto
 
-| Rank | Prioridade | Requisito / Pergunta | User Story | Estimativa | Sprint |
-|------|------------|----------------------|------------|------------|--------|
-| 1 | [Alta/Média/Baixa] | [DIGITAR AQUI] | [DIGITAR AQUI] | [ ] | [ ] |
-| 2 | [Alta/Média/Baixa] | [DIGITAR AQUI] | [DIGITAR AQUI] | [ ] | [ ] |
-| 3 | [Alta/Média/Baixa] | [DIGITAR AQUI] | [DIGITAR AQUI] | [ ] | [ ] |
-| 4 | [Alta/Média/Baixa] | [DIGITAR AQUI] | [DIGITAR AQUI] | [ ] | [ ] |
-| 5 | [Alta/Média/Baixa] | [DIGITAR AQUI] | [DIGITAR AQUI] | [ ] | [ ] |
-| 6 | [Alta/Média/Baixa] | [DIGITAR AQUI] | [DIGITAR AQUI] | [ ] | [ ] |
-| 7 | [Alta/Média/Baixa] | [DIGITAR AQUI] | [DIGITAR AQUI] | [ ] | [ ] |
-| 8 | [Alta/Média/Baixa] | [DIGITAR AQUI] | [DIGITAR AQUI] | [ ] | [ ] |
-| 9 | [Alta/Média/Baixa] | [DIGITAR AQUI] | [DIGITAR AQUI] | [ ] | [ ] |
-| 10 | [Alta/Média/Baixa] | [DIGITAR AQUI] | [DIGITAR AQUI] | [ ] | [ ] |
+O backlog será detalhado pela equipe durante o planejamento das Sprints.
+
+| Rank | Prioridade | Requisito / User Story | Estimativa | Sprint |
+|------|------------|------------------------|------------|--------|
+| 1 | [DEFINIR] | Tratamento dos dados históricos | [DEFINIR] | [DEFINIR] |
+| 2 | [DEFINIR] | Construção da matriz de distâncias e tempos | [DEFINIR] | [DEFINIR] |
+| 3 | [DEFINIR] | Modelagem do problema em Programação Inteira Mista | [DEFINIR] | [DEFINIR] |
+| 4 | [DEFINIR] | Implementação do modelo em Python | [DEFINIR] | [DEFINIR] |
+| 5 | [DEFINIR] | Desenvolvimento do dashboard | [DEFINIR] | [DEFINIR] |
+| 6 | [DEFINIR] | Comparação entre cenário histórico e otimizado | [DEFINIR] | [DEFINIR] |
+| 7 | [DEFINIR] | Cálculo dos indicadores de desempenho | [DEFINIR] | [DEFINIR] |
+| 8 | [DEFINIR] | Elaboração do relatório técnico | [DEFINIR] | [DEFINIR] |
 
 ---
 
@@ -99,26 +173,80 @@
 
 # 📅 Registro das Sprints
 
-| Sprint | Previsão | Status | Histórico |
-|--------|----------|--------|----------|
-| Kickoff / Vídeo | [DATA] | [STATUS] | [LINK / OBSERVAÇÃO] |
-| 01 | [DATA] | [STATUS] | [LINK DO MVP] |
-| 02 | [DATA] | [STATUS] | [LINK DO MVP] |
-| 03 | [DATA] | [STATUS] | [LINK DO MVP] |
-| Feira de Soluções | [DATA] | [STATUS] | [LINK / OBSERVAÇÃO] |
+| Entrega | Previsão | Status | Histórico |
+|---------|----------|--------|----------|
+| Vídeo de entendimento do problema | 04/09/2026 | Em desenvolvimento | [ADICIONAR LINK] |
+| Sprint 01 / Entrega 1 | 02/10/2026 | Não iniciada | [MVP](sp1.md) |
+| Sprint 02 / Entrega 2 | 30/10/2026 | Não iniciada | [MVP](sp2.md) |
+| Sprint 03 / Entrega 3 + Vídeo | 27/11/2026 | Não iniciada | [MVP](sp3.md) |
+| Feira de Soluções | 03/12/2026 | Não iniciada | --- |
 
 ---
 
-# 📚 Documentação complementar
+# 📈 Indicadores Iniciais
 
-Utilize esta área para registrar materiais utilizados durante o desenvolvimento da API.
+Entre os indicadores previstos para análise estão:
 
-- [DOCUMENTO / LINK]
-- [DOCUMENTO / LINK]
-- [DOCUMENTO / LINK]
+- Quantidade de visitas realizadas;
+- Tempo médio das fiscalizações;
+- Quilômetros percorridos;
+- Tempo de deslocamento;
+- Distribuição da carga de trabalho;
+- Fiscalizações por município;
+- Fiscalizações por tipo;
+- Comparação entre cenário histórico e cenário otimizado.
+
+---
+
+# 🔄 Fluxo Geral do Projeto
+
+**Dados históricos do IPEM**
+
+⬇️
+
+**Limpeza e tratamento dos dados**
+
+⬇️
+
+**Análise do cenário histórico**
+
+⬇️
+
+**Construção da matriz de distâncias e tempos**
+
+⬇️
+
+**Modelagem em Pesquisa Operacional**
+
+⬇️
+
+**Otimização em Python**
+
+⬇️
+
+**Construção do cenário otimizado**
+
+⬇️
+
+**Comparação Histórico × Otimizado**
+
+⬇️
+
+**Indicadores + Dashboard + Relatório Técnico**
 
 ---
 
 # 📝 Observações
 
-**[DIGITAR AQUI INFORMAÇÕES IMPORTANTES, DECISÕES DO GRUPO OU ORIENTAÇÕES DO PROFESSOR]**
+Algumas informações operacionais ainda deverão ser confirmadas com o IPEM durante o desenvolvimento, incluindo:
+
+- Quantidade e composição das equipes;
+- Jornada de trabalho;
+- Características e duração dos diferentes tipos de fiscalização;
+- Área geográfica considerada;
+- Restrições operacionais;
+- Prioridades e frequências das fiscalizações;
+- Tratamento de urgências e estabelecimentos prioritários;
+- Critérios definitivos utilizados para avaliar o cenário otimizado.
+
+Essas informações serão incorporadas à documentação conforme forem validadas durante o projeto.
