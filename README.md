@@ -175,7 +175,7 @@ O backlog será detalhado pela equipe durante o planejamento das Sprints.
 
 | Entrega | Previsão | Status | Histórico |
 |---------|----------|--------|----------|
-| Vídeo de entendimento do problema | 04/09/2026 | ENTREGUE | [https://www.youtube.com/watch?v=mzAqFt83a5Y]  |
+| Vídeo de entendimento do problema | 04/09/2026 | ENTREGUE | [LINK DO VIDEO] (https://www.youtube.com/watch?v=mzAqFt83a5Y) |
 | Sprint 01 / Entrega 1 | 02/10/2026 | Não iniciada | [MVP](sp1.md) |
 | Sprint 02 / Entrega 2 | 30/10/2026 | Não iniciada | [MVP](sp2.md) |
 | Sprint 03 / Entrega 3 + Vídeo | 27/11/2026 | Não iniciada | [MVP](sp3.md) |
