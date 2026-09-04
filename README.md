@@ -1,8 +1,8 @@
-# 📌 SafeFlow — Otimização das Fiscalizações do IPEM-SP
+# 📌 SafeFlowFlowSafeGeometry
 
-Projeto desenvolvido no 3º semestre de Logística da Fatec São José dos Campos, no contexto da Aprendizagem por Projetos Integradores (API).
+Projeto desenvolvido no 3º semestre do curso de Logística da Fatec São José dos Campos, no contexto da Aprendizagem por Projetos Integradores (API).
 
-O SafeFlow utilizará dados históricos e Pesquisa Operacional para analisar e otimizar a distribuição das fiscalizações realizadas pela regional do IPEM-SP de São José dos Campos.
+O SafeFlow tem como objetivo analisar os dados históricos da regional do IPEM-SP de São José dos Campos e aplicar conceitos de Pesquisa Operacional para melhorar a distribuição das fiscalizações, reduzir deslocamentos e equilibrar a carga de trabalho entre as equipes.
 
 ---
 
@@ -15,9 +15,10 @@ O SafeFlow utilizará dados históricos e Pesquisa Operacional para analisar e o
 - [Funcionalidades](#funcionalidades)
 - [Requisitos](#requisitos)
 - [Tecnologias](#tecnologias)
-- [Backlog](#backlog)
+- [Backlog do produto](#backlog)
+- [Indicadores](#indicadores)
 - [Fluxo do projeto](#fluxo)
-- [Sprints](#sprints)
+- [Registro das Sprints](#sprints)
 
 ---
 
@@ -25,7 +26,14 @@ O SafeFlow utilizará dados históricos e Pesquisa Operacional para analisar e o
 
 # 📊 Projeto
 
-O IPEM-SP fiscaliza instrumentos e equipamentos, como balanças e bombas de combustível. O projeto analisará os registros históricos dessas atividades e desenvolverá uma proposta para melhorar a distribuição das fiscalizações entre as equipes.
+O IPEM-SP realiza a verificação e a fiscalização de instrumentos de medição, incluindo balanças comerciais, bombas de combustível e outros equipamentos regulamentados.
+
+O projeto será desenvolvido em duas etapas:
+
+1. **Análise histórica:** tratamento dos dados e estudo da distribuição das equipes, dos municípios atendidos, dos tipos de fiscalização, da carga de trabalho e dos resultados obtidos;
+2. **Otimização:** construção de um modelo matemático para propor uma distribuição mais eficiente das fiscalizações e comparar o novo cenário com a operação histórica.
+
+A proposta busca utilizar dados, indicadores e Pesquisa Operacional para apoiar o planejamento das equipes da regional de São José dos Campos.
 
 ---
 
@@ -60,12 +68,33 @@ Desenvolver uma solução baseada em Pesquisa Operacional para:
 
 # ❓ Questões para Análise
 
-1. Como as equipes foram distribuídas historicamente?
-2. Quais municípios e tipos de fiscalização concentraram maior demanda?
+As questões foram divididas entre a compreensão da operação histórica e a construção do cenário otimizado.
+
+## 📊 Análise do histórico
+
+1. Como preparar e validar a base histórica?
+2. Como fiscais e motoristas foram distribuídos?
 3. Como a carga de trabalho foi distribuída entre as equipes?
-4. Qual seria a melhor distribuição das fiscalizações?
-5. Qual é a redução potencial de quilômetros e tempo de deslocamento?
-6. Quais ganhos são identificados ao comparar os cenários histórico e otimizado?
+4. Quais municípios concentraram a maior demanda?
+5. Quais serviços e instrumentos foram mais frequentes?
+6. Quais resultados e irregularidades foram encontrados?
+7. Como a demanda variou ao longo do período?
+8. Qual foi o perfil dos roteiros históricos?
+9. Quais indicadores representam o desempenho histórico?
+10. Como visualizar e disponibilizar os resultados?
+
+## 🧮 Otimização da operação
+
+11. Como representar geograficamente as fiscalizações?
+12. Como calcular as distâncias e os tempos entre os pontos?
+13. Quais capacidades e restrições devem ser consideradas?
+14. Como formular matematicamente o problema?
+15. Como implementar e validar o modelo de otimização?
+16. Qual é a melhor distribuição das fiscalizações?
+17. Qual é a melhor sequência de visitas para cada equipe?
+18. Como equilibrar a carga de trabalho?
+19. Como diferentes cenários afetam o planejamento?
+20. Quais ganhos são obtidos em relação ao cenário histórico?
 
 ---
 
@@ -73,11 +102,19 @@ Desenvolver uma solução baseada em Pesquisa Operacional para:
 
 # ⚙️ Funcionalidades
 
+A solução deverá contemplar:
+
+- 🧹 Tratamento e validação dos dados;
+- 📊 Análise da operação histórica;
 - 🗺️ Mapa das fiscalizações;
 - 🚗 Rotas históricas e otimizadas;
-- 📊 Dashboard de indicadores;
+- ⚖️ Análise da carga de trabalho;
+- 🧮 Otimização da distribuição das equipes;
 - 🔄 Simulação de cenários;
+- 📈 Dashboard histórico e comparativo;
 - 📄 Exportação de relatórios.
+
+> As funcionalidades serão desenvolvidas progressivamente durante as Sprints.
 
 ---
 
@@ -87,14 +124,18 @@ Desenvolver uma solução baseada em Pesquisa Operacional para:
 
 | Código | Requisito |
 |--------|-----------|
-| RN.P.1 | Tratar e padronizar os dados históricos |
-| RN.P.2 | Analisar a operação histórica |
-| RN.P.3 | Construir a matriz de distâncias e tempos |
-| RN.P.4 | Modelar o problema de otimização |
-| RN.P.5 | Implementar o modelo em Python |
-| RN.P.6 | Construir o cenário otimizado |
-| RN.P.7 | Comparar os cenários e calcular indicadores |
-| RN.P.8 | Desenvolver o dashboard e o relatório técnico |
+| RN.P.1 | Tratar, padronizar e validar os dados históricos |
+| RN.P.2 | Diferenciar instrumentos, visitas e roteiros |
+| RN.P.3 | Analisar equipes, demanda, carga e resultados |
+| RN.P.4 | Geocodificar os pontos de fiscalização |
+| RN.P.5 | Construir a matriz de distâncias e tempos |
+| RN.P.6 | Definir as capacidades e restrições operacionais |
+| RN.P.7 | Formular o modelo matemático de otimização |
+| RN.P.8 | Implementar e validar o modelo em Python |
+| RN.P.9 | Construir e simular cenários otimizados |
+| RN.P.10 | Comparar os cenários por meio de indicadores |
+| RN.P.11 | Desenvolver o dashboard |
+| RN.P.12 | Exportar os resultados e elaborar o relatório técnico |
 
 ---
 
@@ -103,12 +144,14 @@ Desenvolver uma solução baseada em Pesquisa Operacional para:
 # 🛠 Tecnologias Previstas
 
 - **Python e Pandas** — tratamento e análise dos dados;
-- **OR-Tools ou Pyomo** — implementação do modelo de otimização;
-- **BI** — visualização dos indicadores;
+- **OR-Tools ou Pyomo** — modelagem e otimização;
+- **Serviço de geocodificação** — conversão dos endereços em coordenadas;
+- **Matriz de distâncias e tempos** — cálculo dos deslocamentos;
+- **BI** — dashboards histórico e comparativo;
 - **GitHub** — versionamento e documentação;
 - **Office** — apresentações e relatório técnico.
 
-> Outras tecnologias poderão ser adicionadas conforme a evolução do projeto.
+> As ferramentas definitivas de geocodificação, otimização e visualização serão escolhidas durante o desenvolvimento.
 
 ---
 
@@ -154,14 +197,30 @@ A primeira etapa busca compreender como as fiscalizações foram realizadas. A s
 
 > As perguntas relacionadas às rotas, distâncias e tempos dependerão da geocodificação dos endereços, da construção da matriz de deslocamentos e da validação das restrições operacionais com o cliente.
 
-# 📈 Indicadores Iniciais
+<a name="indicadores"></a>
+
+# 📈 Indicadores
+
+## 📊 Cenário histórico
 
 - Quantidade de roteiros, visitas e instrumentos;
-- Fiscalizações por equipe e município;
-- Fiscalizações por tipo e resultado;
-- Distribuição da carga de trabalho;
+- Distribuição de fiscais e motoristas;
+- Carga de trabalho por equipe;
+- Visitas e instrumentos por município;
+- Fiscalizações por serviço e tipo de instrumento;
+- Aprovações, reprovações e interdições;
+- Variação da demanda ao longo do período.
+
+## 🧮 Cenário otimizado
+
 - Quilômetros e tempo de deslocamento;
+- Carga de trabalho por equipe;
+- Quantidade de atendimentos;
+- Cobertura dos municípios;
+- Redução percentual de distância e tempo;
 - Comparação entre os cenários histórico e otimizado.
+
+> Os indicadores de distância e tempo dependerão da geocodificação dos endereços e da construção da matriz de deslocamentos.
 
 ---
 
@@ -169,18 +228,21 @@ A primeira etapa busca compreender como as fiscalizações foram realizadas. A s
 
 # 🔄 Fluxo Geral do Projeto
 
+O projeto será desenvolvido em duas etapas: análise da operação histórica e construção do cenário otimizado.
+
 ```mermaid
 flowchart TD
-    A["Dados históricos"] --> B["Tratamento"]
-    B --> C["Análise histórica"]
-    C --> D["Distâncias e tempos"]
-    D --> E["Modelagem e otimização"]
-    E --> F["Cenário otimizado"]
-    F --> G["Comparação e resultados"]
+    A["Dados históricos"] --> B["Tratamento e validação"]
+    B --> C["Análise do histórico"]
+    C --> D["Indicadores iniciais"]
+    D --> E["Geocodificação e matriz"]
+    E --> F["Modelagem matemática"]
+    F --> G["Otimização em Python"]
+    G --> H["Simulação de cenários"]
+    H --> I["Comparação e resultados"]
 ```
 
 ---
-
 <a name="sprints"></a>
 
 # 📅 Registro das Sprints
