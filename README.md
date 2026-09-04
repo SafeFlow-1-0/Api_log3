@@ -183,21 +183,7 @@ Entre os indicadores previstos para análise estão:
 - Comparação entre cenário histórico e cenário otimizado.
 
 ---
-# 🔄 Fluxo Geral do Projeto
-
-O desenvolvimento do projeto seguirá um fluxo estruturado, partindo da análise dos dados históricos até a construção e validação de um cenário otimizado para as equipes de fiscalização do IPEM-SP.
-
-```mermaid
-flowchart TD
-    A[Dados históricos do IPEM] --> B[Limpeza e tratamento dos dados]
-    B --> C[Análise do cenário histórico]
-    C --> D[Construção da matriz de distâncias e tempos]
-    D --> E[Modelagem em Pesquisa Operacional]
-    E --> F[Otimização em Python]
-    F --> G[Construção do cenário otimizado]
-    G --> H[Comparação entre cenário histórico e otimizado]
-    H --> I[Indicadores de desempenho]
-    I --> J[Dashboard e relatório técnico]
+# 🔄 Fluxo Geral do Projeto **Dados históricos do IPEM** ⬇️ **Limpeza e tratamento dos dados** ⬇️ **Análise do cenário histórico** ⬇️ **Construção da matriz de distâncias e tempos** ⬇️ **Modelagem em Pesquisa Operacional** ⬇️ **Otimização em Python** ⬇️ **Construção do cenário otimizado** ⬇️ **Comparação Histórico × Otimizado** ⬇️ **Indicadores + Dashboard + Relatório Técnico** ---
 
 <a name="sprints"></a>
 
