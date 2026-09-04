@@ -31,10 +31,10 @@ O IPEM-SP realiza a verificação e a fiscalização de instrumentos de mediçã
 
 O projeto será desenvolvido em duas etapas:
 
-1. **Análise histórica:** tratamento dos dados e estudo da distribuição das equipes, dos municípios atendidos, dos tipos de fiscalização, da carga de trabalho e dos resultados obtidos;
-2. **Otimização:** construção de um modelo matemático para propor uma distribuição mais eficiente das fiscalizações e comparar o novo cenário com a operação histórica.
+1. **Análise histórica:** tratamento dos dados e análise da distribuição das equipes, dos municípios atendidos, dos tipos de fiscalização, da carga de trabalho e dos resultados obtidos;
+2. **Otimização:** desenvolvimento de um modelo matemático para propor uma distribuição mais eficiente das fiscalizações e comparar o cenário otimizado com a operação histórica.
 
-A proposta busca utilizar dados, indicadores e Pesquisa Operacional para apoiar o planejamento das equipes da regional de São José dos Campos.
+A proposta utiliza dados, indicadores e técnicas de Pesquisa Operacional para apoiar o planejamento das equipes de fiscalização da regional de São José dos Campos.
 
 ---
 
@@ -59,7 +59,7 @@ Desenvolver uma solução baseada em Pesquisa Operacional para:
 
 - Analisar a operação histórica;
 - Melhorar a distribuição das fiscalizações;
-- Reduzir deslocamentos e tempo de viagem;
+- Reduzir deslocamentos e tempos de viagem;
 - Balancear a carga de trabalho;
 - Comparar os cenários histórico e otimizado.
 
@@ -73,7 +73,7 @@ As questões foram divididas entre a compreensão da operação histórica e a c
 
 ## 📊 Análise do histórico
 
-1. Como preparar e validar a base histórica?
+1. Quais características e limitações existem na base histórica?
 2. Como fiscais e motoristas foram distribuídos?
 3. Como a carga de trabalho foi distribuída entre as equipes?
 4. Quais municípios concentraram a maior demanda?
@@ -108,7 +108,7 @@ A solução deverá contemplar:
 - 🧹 Tratamento e validação dos dados;
 - 📊 Análise da operação histórica;
 - 🗺️ Mapa das fiscalizações;
-- 🚗 Rotas históricas e otimizadas;
+- 🚗 Representação dos roteiros históricos e rotas otimizadas;
 - ⚖️ Análise da carga de trabalho;
 - 🧮 Otimização da distribuição das equipes;
 - 🔄 Simulação de cenários;
@@ -123,20 +123,35 @@ A solução deverá contemplar:
 
 # 📋 Requisitos
 
+### Requisitos do Cliente
+
 | Código | Requisito |
 |--------|-----------|
-| RN.P.1 | Tratar, padronizar e validar os dados históricos |
-| RN.P.2 | Diferenciar instrumentos, visitas e roteiros |
-| RN.P.3 | Analisar equipes, demanda, carga e resultados |
-| RN.P.4 | Geocodificar os pontos de fiscalização |
-| RN.P.5 | Construir a matriz de distâncias e tempos |
-| RN.P.6 | Definir as capacidades e restrições operacionais |
-| RN.P.7 | Formular o modelo matemático de otimização |
-| RN.P.8 | Implementar e validar o modelo em Python |
-| RN.P.9 | Construir e simular cenários otimizados |
-| RN.P.10 | Comparar os cenários por meio de indicadores |
-| RN.P.11 | Desenvolver o dashboard |
-| RN.P.12 | Exportar os resultados e elaborar o relatório técnico |
+| RN.P.1 | Tratar os dados históricos |
+| RN.P.2 | Construir matriz de distâncias e tempos |
+| RN.P.3 | Modelar o problema em Programação Inteira Mista |
+| RN.P.4 | Implementar em Python (OR-Tools/Pyomo) |
+| RN.P.5 | Desenvolver dashboard |
+| RN.P.6 | Comparar cenário real e otimizado |
+| RN.P.7 | Calcular indicadores de desempenho |
+| RN.P.8 | Elaborar relatório técnico |
+
+### Requisitos Técnicos do Projeto
+
+| Código | Requisito |
+|--------|-----------|
+| RT.01 | Tratar, padronizar e validar os dados históricos |
+| RT.02 | Diferenciar instrumentos, visitas e roteiros |
+| RT.03 | Analisar equipes, demanda, carga e resultados |
+| RT.04 | Geocodificar os pontos de fiscalização |
+| RT.05 | Construir a matriz de distâncias e tempos |
+| RT.06 | Definir as capacidades e restrições operacionais |
+| RT.07 | Formular o modelo matemático de otimização |
+| RT.08 | Implementar e validar o modelo em Python |
+| RT.09 | Construir e simular cenários otimizados |
+| RT.10 | Comparar os cenários por meio de indicadores |
+| RT.11 | Desenvolver o dashboard |
+| RT.12 | Exportar os resultados e elaborar o relatório técnico |
 
 ---
 
@@ -216,7 +231,7 @@ A primeira etapa busca compreender como as fiscalizações foram realizadas. A s
 
 ## 🧮 Cenário otimizado
 
-- Quilômetros e tempo de deslocamento;
+- Quilômetros percorridos e tempo de deslocamento;
 - Carga de trabalho por equipe;
 - Quantidade de atendimentos;
 - Cobertura dos municípios;
@@ -224,7 +239,6 @@ A primeira etapa busca compreender como as fiscalizações foram realizadas. A s
 - Comparação entre os cenários histórico e otimizado.
 
 > Os indicadores de distância e tempo dependerão da geocodificação dos endereços e da construção da matriz de deslocamentos.
-
 ---
 
 <a name="fluxo"></a>
@@ -253,11 +267,11 @@ flowchart LR
 | Vídeo de entendimento do problema | 04/09/2026 | Entregue | [Vídeo](https://www.youtube.com/watch?v=mzAqFt83a5Y) |
 | Sprint 01 / Entrega 1 | 02/10/2026 | Não iniciada | [MVP](sp1.md) |
 | Sprint 02 / Entrega 2 | 30/10/2026 | Não iniciada | [MVP](sp2.md) |
-| Sprint 03 / Entrega 3 + vídeo | 27/11/2026 | Não iniciada | [MVP](sp3.md) |
+| Sprint 03 / Entrega 3 + Vídeo | 27/11/2026 | Não iniciada | [MVP](sp3.md) |
 | Feira de Soluções | 03/12/2026 | Não iniciada | — |
 
 ---
 
 # 📝 Observação
 
-As restrições operacionais, a composição das equipes e os critérios do modelo serão detalhados durante as próximas etapas, conforme a validação com o IPEM-SP.
+As restrições operacionais, a composição das equipes e os critérios do modelo de otimização serão detalhados durante as próximas etapas, conforme a validação com o IPEM-SP.
