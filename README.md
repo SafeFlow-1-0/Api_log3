@@ -1,4 +1,4 @@
-# 📌 SafeFlowFlowSafeGeometry
+# 📌 SafeFlow — Análise e Otimização das Fiscalizações do IPEM-SP
 
 Projeto desenvolvido no 3º semestre do curso de Logística da Fatec São José dos Campos, no contexto da Aprendizagem por Projetos Integradores (API).
 
@@ -8,18 +8,19 @@ O SafeFlow tem como objetivo analisar os dados históricos da regional do IPEM-S
 
 # 📑 Índice
 
-- [Projeto](#projeto)
-- [Equipe](#equipe)
-- [Objetivo](#objetivo)
-- [Questões para análise](#questoes)
-- [Funcionalidades](#funcionalidades)
-- [Requisitos](#requisitos)
-- [Tecnologias](#tecnologias)
-- [Backlog do produto](#backlog)
-- [Indicadores](#indicadores)
-- [Fluxo do projeto](#fluxo)
-- [Registro das Sprints](#sprints)
-
+| Seção | Link |
+|------|------|
+| 📊 Projeto | [Clique aqui](#projeto) |
+| 👥 Equipe | [Clique aqui](#equipe) |
+| 🎯 Objetivo do Projeto | [Clique aqui](#objetivo) |
+| ❓ Questões para Análise | [Clique aqui](#questoes) |
+| ⚙️ Funcionalidades | [Clique aqui](#funcionalidades) |
+| 📋 Requisitos do Projeto | [Clique aqui](#requisitos) |
+| 🛠 Tecnologias Utilizadas | [Clique aqui](#tecnologias) |
+| 🗂 Backlog do Produto | [Clique aqui](#backlog) |
+| 📈 Indicadores Iniciais | [Clique aqui](#indicadores) |
+| 🔄 Fluxo Geral do Projeto | [Clique aqui](#fluxo) |
+| 📅 Registro das Sprints | [Clique aqui](#sprints) |
 ---
 
 <a name="projeto"></a>
@@ -43,7 +44,7 @@ A proposta busca utilizar dados, indicadores e Pesquisa Operacional para apoiar 
 
 | Função | Nome | LinkedIn e GitHub |
 |--------|------|-------------------|
-| Product Owner | Ana Clara Dias | [LinkedIn](http://linkedin.com/in/ana-clara-dias-de-souza-927431179) \| [GitHub](https://github.com/AninhaDias) |
+| Product Owner | Ana Clara Dias | [LinkedIn](https://linkedin.com/in/ana-clara-dias-de-souza-927431179) \| [GitHub](https://github.com/AninhaDias) |
 | Team Member | Kauan Souza | [LinkedIn](https://linkedin.com/in/kauan-souza-9247aa377) \| [GitHub](https://github.com/kauanzcsouza10-art) |
 | Team Member | Davi Pais | [LinkedIn](https://linkedin.com/in/davi-pais-340989359) \| [GitHub](https://github.com/DaviPaisKitada) |
 | Team Member | Mariana Leal | [LinkedIn](https://linkedin.com/in/mariana-leal-a708b8335) \| [GitHub](https://github.com/marileal071415-create) |
@@ -197,6 +198,8 @@ A primeira etapa busca compreender como as fiscalizações foram realizadas. A s
 
 > As perguntas relacionadas às rotas, distâncias e tempos dependerão da geocodificação dos endereços, da construção da matriz de deslocamentos e da validação das restrições operacionais com o cliente.
 
+---
+
 <a name="indicadores"></a>
 
 # 📈 Indicadores
@@ -228,18 +231,16 @@ A primeira etapa busca compreender como as fiscalizações foram realizadas. A s
 
 # 🔄 Fluxo Geral do Projeto
 
-O projeto será desenvolvido em duas etapas: análise da operação histórica e construção do cenário otimizado.
-
 ```mermaid
-flowchart TD
-    A["Dados históricos"] --> B["Tratamento e validação"]
-    B --> C["Análise do histórico"]
-    C --> D["Indicadores iniciais"]
-    D --> E["Geocodificação e matriz"]
-    E --> F["Modelagem matemática"]
-    F --> G["Otimização em Python"]
-    G --> H["Simulação de cenários"]
-    H --> I["Comparação e resultados"]
+flowchart LR
+    A["📂 Base IPEM"] --> B["🧹 Tratamento"]
+    B --> C["📊 Diagnóstico histórico"]
+    C --> D["🌐 Geocodificação"]
+    D --> E["🗺️ Distâncias e tempos"]
+    E --> F["🧮 Modelagem"]
+    F --> G["🐍 Otimização"]
+    G --> H["🔍 Comparação"]
+    H --> I["📈 Resultados"]
 ```
 
 ---
