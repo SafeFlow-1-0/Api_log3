@@ -346,33 +346,39 @@ O projeto começará pela compreensão e pelo diagnóstico da operação histór
 
 ```mermaid
 flowchart TD
-    A["📂 Base histórica do IPEM-SP"] --> B["🔍 Compreensão da granularidade"]
-    B --> C["🧹 Limpeza e padronização"]
-    C --> D["📊 Diagnóstico histórico"]
-    D --> E["📈 Indicadores e dashboard inicial"]
-    E --> F["🌐 Geocodificação dos endereços"]
-    F --> G["🗺️ Matriz de distâncias e tempos"]
-    G --> H["📋 Definição das restrições"]
-    H --> I["🧮 Modelagem matemática"]
-    I --> J["🐍 Otimização em Python"]
-    J --> K["⚙️ Cenário otimizado"]
-    K --> L["🔍 Comparação dos cenários"]
-    L --> M["📊 Dashboard e relatório técnico"]
+    A["Base histórica do IPEM-SP"] --> B["Compreensão da granularidade"]
+    B --> C["Limpeza e padronização"]
+    C --> D["Diagnóstico histórico"]
+    D --> E["Indicadores e dashboard inicial"]
+    E --> F["Geocodificação dos endereços"]
+    F --> G["Matriz de distâncias e tempos"]
+    G --> H["Definição das restrições"]
+    H --> I["Modelagem matemática"]
+    I --> J["Otimização em Python"]
+    J --> K["Cenário otimizado"]
+    K --> L["Comparação dos cenários"]
+    L --> M["Dashboard e relatório técnico"]
+```
+
 ---
 
 ### 📋 Etapas do Projeto
 
 | Etapa | Desenvolvimento |
 |------|-----------------|
-| 📂 **1. Dados históricos** | Recebimento e compreensão da base de fiscalizações do IPEM |
-| 🧹 **2. Tratamento** | Limpeza, padronização e preparação dos dados |
-| 📊 **3. Cenário histórico** | Análise de como as fiscalizações foram realizadas |
-| 🗺️ **4. Distâncias e tempos** | Construção da matriz necessária para análise das rotas |
-| 🧮 **5. Modelagem** | Formulação do problema de Pesquisa Operacional |
-| 🐍 **6. Otimização** | Execução do modelo matemático em Python |
-| ⚙️ **7. Cenário otimizado** | Construção da nova proposta de distribuição das equipes |
-| 🔍 **8. Comparação** | Comparação entre a operação histórica e a otimizada |
-| 📈 **9. Resultados** | Indicadores, dashboard e relatório técnico |
+| 📂 **1. Dados históricos** | Recebimento, preservação e compreensão da base de fiscalizações do IPEM-SP |
+| 🔍 **2. Granularidade** | Diferenciação entre instrumentos, visitas e roteiros |
+| 🧹 **3. Tratamento** | Limpeza, padronização e preparação dos dados |
+| 📊 **4. Cenário histórico** | Análise das equipes, municípios, serviços, instrumentos e resultados |
+| 📈 **5. Indicadores iniciais** | Construção dos indicadores e do dashboard histórico |
+| 🌐 **6. Geocodificação** | Conversão dos endereços em coordenadas geográficas |
+| 🗺️ **7. Distâncias e tempos** | Construção da matriz necessária para analisar os deslocamentos |
+| 📋 **8. Restrições** | Definição de jornada, capacidade, bases operacionais e regras das equipes |
+| 🧮 **9. Modelagem** | Formulação do problema de Pesquisa Operacional |
+| 🐍 **10. Otimização** | Implementação e execução do modelo matemático em Python |
+| ⚙️ **11. Cenário otimizado** | Construção da nova proposta de distribuição e roteirização |
+| 🔍 **12. Comparação** | Comparação entre a operação histórica e a otimizada |
+| 📄 **13. Resultados** | Elaboração do dashboard comparativo e do relatório técnico |
 
 ---
 <a name="sprints"></a>
