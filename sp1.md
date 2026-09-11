@@ -3,7 +3,7 @@
 ## 🎯 Objetivo do MVP
  
 - **Qual problema resolve?**  
-  [PREENCHER]
+  . Organizar, tratar e analisar os dados históricos de fiscalização do IPEM-SP, permitindo compreender como a operação foi realizada e estabelecer uma base confiável para as próximas etapas de otimização.
 
 - **Qual hipótese será validada?**  
   [PREENCHER]
