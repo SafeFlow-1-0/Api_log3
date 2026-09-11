@@ -6,10 +6,10 @@
   * Organizar, tratar e analisar os dados históricos de fiscalização do IPEM-SP, permitindo compreender como a operação foi realizada e estabelecer uma base confiável para as próximas etapas de otimização.
 
 - **Qual hipótese será validada?**
- * A base histórica pode ser tratada e estruturada para representar adequadamente a operação de fiscalização;
- * É possível identificar a distribuição das fiscalizações entre equipes e municípios;
- * Os dados permitem analisar a carga de trabalho, a demanda e os resultados das fiscalizações;
- * É possível construir indicadores que representem o cenário histórico e sirvam posteriormente como referência para comparação com o cenário otimizado.
+  * A base histórica pode ser tratada e estruturada para representar adequadamente a operação de fiscalização;
+  * É possível identificar a distribuição das fiscalizações entre equipes e municípios;
+  * Os dados permitem analisar a carga de trabalho, a demanda e os resultados das fiscalizações;
+  * É possível construir indicadores que representem o cenário histórico e sirvam posteriormente como referência para comparação com o cenário otimizado.
 
 - **Qual valor será entregue ao usuário final?**  
   [PREENCHER]
