@@ -49,7 +49,7 @@
 </p>
 
 <p align="justify">
-<strong>[PERSONA / USUÁRIO 2]:</strong> [PREENCHER]
+<strong>Equipes de fiscalização:</strong> fiscais e motoristas envolvidos na execução dos roteiros e atendimentos.
 </p>
 
 <p align="justify">
