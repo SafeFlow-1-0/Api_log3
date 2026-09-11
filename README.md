@@ -48,6 +48,8 @@ A proposta utiliza dados, indicadores e técnicas de Pesquisa Operacional para a
 | Team Member | Kauan Souza | [LinkedIn](https://linkedin.com/in/kauan-souza-9247aa377) \| [GitHub](https://github.com/kauanzcsouza10-art) |
 | Team Member | Davi Pais | [LinkedIn](https://linkedin.com/in/davi-pais-340989359) \| [GitHub](https://github.com/DaviPaisKitada) |
 | Team Member | Mariana Leal | [LinkedIn](https://linkedin.com/in/mariana-leal-a708b8335) \| [GitHub](https://github.com/marileal071415-create) |
+| Team Member | Vitor Amaral | [LinkedIn](https://www.linkedin.com/in/vitor-amaral-szabo-b533b6339/) \| [GitHub](https://github.com/szaboamaral-design) |
+
 
 ---
 
