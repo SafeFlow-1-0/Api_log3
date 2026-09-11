@@ -12,7 +12,7 @@
   * É possível construir indicadores que representem o cenário histórico e sirvam posteriormente como referência para comparação com o cenário otimizado.
 
 - **Qual valor será entregue ao usuário final?**  
-  [PREENCHER]
+  * Uma visão estruturada da operação histórica da regional de São José dos Campos, com dados tratados e indicadores que permitam compreender a distribuição das fiscalizações, a demanda e a carga de trabalho das equipes.
 
 ---
 
