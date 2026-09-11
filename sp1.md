@@ -19,13 +19,26 @@
 ## 📝 Descrição da Solução
   
 - **Funcionalidades principais incluídas**  
-  [PREENCHER]
+  * Tratamento e padronização da base histórica;
+  * Identificação de dados ausentes, duplicados e inconsistentes;
+  * Diferenciação entre instrumentos, visitas e roteiros;
+  * Análise da distribuição de fiscais e motoristas;
+  * Análise da carga de trabalho;
+  * Análise das fiscalizações por município;
+  * Análise dos serviços e instrumentos fiscalizados;
+  * Análise dos resultados das fiscalizações;
+  * Construção dos principais indicadores históricos;
+  * Desenvolvimento de uma visualização inicial dos resultados.
 
 - **Limitações conhecidas**  
-  [PREENCHER]
+  * A Sprint 01 será baseada nos dados históricos disponibilizados pelo IPEM-SP;
+  * A qualidade das análises dependerá da qualidade e do preenchimento da base original;
+  * Informações não presentes na base não poderão ser determinadas diretamente;
+  * Distâncias e tempos de deslocamento ainda não serão considerados;
+  * Os roteiros históricos não representam necessariamente o trajeto real percorrido pelas equipes.
   
 - **Escopo reduzido**  
-  [PREENCHER]
+  * Nesta Sprint, o foco será exclusivamente o tratamento dos dados e a compreensão da operação histórica. A geocodificação, matriz de distâncias e tempos, modelagem matemática e otimização das rotas serão desenvolvidas nas etapas posteriores.
 
 ---
 
