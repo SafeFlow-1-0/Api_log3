@@ -45,7 +45,7 @@
 ## 👥 Personas / Usuários-Alvo
 
 <p align="justify">
-<strong>[Gestores do IPEM-SP]:</strong> responsáveis pelo planejamento e acompanhamento das operações de fiscalização.
+<strong>Gestores do IPEM-SP:</strong> responsáveis pelo planejamento e acompanhamento das operações de fiscalização.
 </p>
 
 <p align="justify">
