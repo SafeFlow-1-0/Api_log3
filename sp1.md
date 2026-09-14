@@ -105,9 +105,11 @@
 
 ## 🚀 Próximos Passos
 
-- [PREENCHER]
-- [PREENCHER]
-- [PREENCHER]
+  * Geocodificar os pontos de fiscalização;
+  * Construir a matriz de distâncias e tempos;
+  * Definir as capacidades e restrições operacionais;
+  * Iniciar a formulação do modelo matemático de otimização;
+  * Utilizar os indicadores históricos como referência para comparação com os futuros cenários otimizados.
 
 ---
 
