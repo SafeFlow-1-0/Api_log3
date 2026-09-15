@@ -45,15 +45,15 @@
 ## 👥 Personas / Usuários-Alvo
 
 <p align="justify">
-<strong>Gestores do IPEM-SP:</strong> responsáveis pelo planejamento e acompanhamento das operações de fiscalização.
+<strong>Gestores do IPEM-SP:</strong> responsáveis pelo planejamento, acompanhamento e tomada de decisões relacionadas às operações de fiscalização. Utilizam os dados e indicadores para identificar a distribuição da demanda, avaliar a carga de trabalho das equipes e apoiar o planejamento das fiscalizações.
 </p>
 
 <p align="justify">
-<strong>Equipes de fiscalização:</strong> fiscais e motoristas envolvidos na execução dos roteiros e atendimentos.
+<strong>Carlos Bastos:</strong> Cliente e avaliadores do projeto, acompanhando o desenvolvimento da plataforma de BI para o comércio exterior paulista. Necessidades e tarefas atendidas: É necessário que os alunos entreguem uma solução bem documentada, funcional e aderente aos requisitos ágeis, garantindo que o aprendizado e a aplicação prática de competências logísticas e de análise de dados sejam oferecidos.
 </p>
 
 <p align="justify">
-<strong>[PERSONA / USUÁRIO 3]:</strong> [PREENCHER]
+<strong>Marcus Nascimento:</strong> Cliente, interessado no desempenho do comércio exterior. Necessidades e tarefas atendidas: Precisa de acesso a dados organizados, consolidados e visualmente compreensíveis para apoiar decisões estratégicas e logísticas, atualmente os dados estão dispersos e desativados manual de esforço para análise.
 </p>
 
 ---
