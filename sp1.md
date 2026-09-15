@@ -84,9 +84,12 @@
 
 ## 📊 Critérios de Aceitação
 
-- [PREENCHER]
-- [PREENCHER]
-- [PREENCHER]
+  * A base histórica deve possuir processo de tratamento documentado e reproduzível;
+  * Dados ausentes, duplicados e inconsistentes devem ser identificados e tratados de acordo com regras documentadas;
+  * Instrumentos, visitas e roteiros devem possuir critérios claros de identificação;
+  * Os principais indicadores da operação histórica devem ser calculados a partir da base tratada;
+  * As análises devem permitir compreender a distribuição das equipes, da demanda e da carga de trabalho;
+  * Os resultados apresentados devem ser rastreáveis até os dados utilizados no processamento.
 
 ---
 
