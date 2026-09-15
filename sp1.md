@@ -92,14 +92,23 @@
 
 ## 📈 Métricas de Validação
 
-- **Número de usuários que testaram o MVP**
-  - [PREENCHER]
-
-- **Feedback qualitativo (positivo/negativo)**
-  - [PREENCHER]
-
-- **Indicadores de negócio**
-  - [PREENCHER]
+**Qualidade dos dados**
+  * Quantidade de registros analisados;
+  * Quantidade de dados ausentes identificados;
+  * Quantidade de duplicidades identificadas;
+  * Quantidade de inconsistências encontradas e tratadas.
+    
+**Cobertura das análises**
+  * Quantidade de roteiros identificados;
+  * Quantidade de visitas identificadas;
+  * Quantidade de instrumentos analisados;
+  * Distribuição das fiscalizações por equipe e município;
+  * Indicadores históricos calculados.
+    
+**Validação do MVP**
+  * Validação dos resultados pela equipe;
+  * Feedback do professor e/ou cliente após apresentação da entrega;
+  * Ajustes identificados durante a homologação.
 
 ---
 
