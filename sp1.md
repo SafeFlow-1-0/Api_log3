@@ -74,11 +74,11 @@
 
 | Sprint | Entregas Principais | Status |
 |--------|--------------------|--------|
-| 01 | [PREENCHER] | [STATUS] |
-| 01 | [PREENCHER] | [STATUS] |
-| 01 | [PREENCHER] | [STATUS] |
-| 01 | [PREENCHER] | [STATUS] |
-| 01 | [PREENCHER] | [STATUS] |
+| 01 | Tratamento e validação da base histórica | Em desenvolvimento |
+| 01 | Estruturação dos dados de instrumentos, visitas e roteiros | Não iniciada |
+| 01 | Análise da distribuição das equipes e da demanda | Não iniciada |
+| 01 | Construção dos indicadores históricos | Não iniciada |
+| 01 | Visualização inicial dos resultados | Não iniciada |
 
 ---
 
