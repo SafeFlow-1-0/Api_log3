@@ -1,16 +1,5 @@
 # 📌 MVP - SafeFlow
 
-### 📌 Resumo da Sprint 01
-
-| Indicador | Planejamento |
-|-----------|--------------|
-| Entrega prevista | 02/10/2026 |
-| User Stories planejadas | 10 |
-| Prioridade alta | 9 |
-| Prioridade média | 1 |
-| Esforço total estimado | 83 horas |
-| Objetivo da entrega | Diagnóstico histórico e dashboard inicial |
-
 > As estimativas representam o esforço total previsto da equipe e poderão ser revisadas durante a execução.
 ## 🎯 Objetivo do MVP
  
@@ -84,6 +73,16 @@
 | 9 | Alta | Quais indicadores representam o desempenho da operação histórica? | Como gestor, quero acompanhar indicadores de equipes, demanda, carga e resultados para avaliar o cenário histórico. | 8h |
 | 10 | Média | Como visualizar e disponibilizar os resultados da análise histórica? | Como usuário, quero consultar um dashboard com filtros e exportar os resultados para apoiar análises, apresentações e decisões. | 12h |
 
+### 📌 Resumo da Sprint 01
+
+| Indicador | Planejamento |
+|-----------|--------------|
+| Entrega prevista | 02/10/2026 |
+| User Stories planejadas | 10 |
+| Prioridade alta | 9 |
+| Prioridade média | 1 |
+| Esforço total estimado | 83 horas |
+| Objetivo da entrega | Diagnóstico histórico e dashboard inicial |
 ---
 
 ## 📅 Sprint(s) Relacionadas
