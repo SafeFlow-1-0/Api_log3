@@ -185,31 +185,31 @@ A primeira etapa busca compreender como as fiscalizações foram realizadas. A s
 
 | Rank | Prioridade | Pergunta | User Story | Estimativa | Sprint |
 |-----:|------------|----------|------------|------------|--------|
-| 1 | Alta | Como preparar e validar a base histórica para análise? | Como analista, quero tratar, padronizar e validar os dados, diferenciando instrumentos, visitas e roteiros, para garantir resultados confiáveis. | [DEFINIR] | [DEFINIR] |
-| 2 | Alta | Como fiscais e motoristas foram distribuídos historicamente? | Como gestor, quero visualizar a formação das equipes e os roteiros realizados para compreender como os profissionais foram distribuídos. | [DEFINIR] | [DEFINIR] |
-| 3 | Alta | Como a carga de trabalho foi distribuída entre as equipes? | Como gestor, quero comparar roteiros, visitas e instrumentos por equipe para identificar sobrecarga ou subutilização. | [DEFINIR] | [DEFINIR] |
-| 4 | Alta | Quais municípios concentraram a maior demanda? | Como planejador, quero analisar visitas e instrumentos por município para identificar a concentração territorial das fiscalizações. | [DEFINIR] | [DEFINIR] |
-| 5 | Alta | Quais serviços e tipos de instrumento foram mais frequentes? | Como analista, quero classificar os registros por serviço, espécie e item para compreender o perfil técnico da demanda. | [DEFINIR] | [DEFINIR] |
-| 6 | Alta | Quais resultados e irregularidades foram encontrados nas fiscalizações? | Como gestor, quero analisar aprovações, reprovações, interdições e verificações não realizadas por município e tipo de instrumento. | [DEFINIR] | [DEFINIR] |
-| 7 | Alta | Como a demanda variou ao longo do período analisado? | Como analista, quero comparar meses, dias da semana e estabelecimentos revisitados para identificar padrões temporais e recorrências. | [DEFINIR] | [DEFINIR] |
-| 8 | Alta | Qual foi o perfil dos roteiros históricos? | Como planejador, quero analisar a quantidade de endereços, instrumentos e o intervalo operacional de cada roteiro para compreender sua configuração. | [DEFINIR] | [DEFINIR] |
-| 9 | Alta | Quais indicadores representam o desempenho da operação histórica? | Como gestor, quero acompanhar indicadores de equipes, demanda, carga e resultados para avaliar o cenário histórico. | [DEFINIR] | [DEFINIR] |
-| 10 | Média | Como visualizar e disponibilizar os resultados da análise histórica? | Como usuário, quero consultar um dashboard com filtros e exportar os resultados para apoiar análises, apresentações e decisões. | [DEFINIR] | [DEFINIR] |
+| 1 | Alta | Como preparar e validar a base histórica para análise? | Como analista, quero tratar, padronizar e validar os dados, diferenciando instrumentos, visitas e roteiros, para garantir resultados confiáveis. | 16h | 01 |
+| 2 | Alta | Como fiscais e motoristas foram distribuídos historicamente? | Como gestor, quero visualizar a formação das equipes e os roteiros realizados para compreender como os profissionais foram distribuídos. | 6h | 01 |
+| 3 | Alta | Como a carga de trabalho foi distribuída entre as equipes? | Como gestor, quero comparar roteiros, visitas e instrumentos por equipe para identificar sobrecarga ou subutilização. | 8h | 01 |
+| 4 | Alta | Quais municípios concentraram a maior demanda? | Como planejador, quero analisar visitas e instrumentos por município para identificar a concentração territorial das fiscalizações. | 5h | 01 |
+| 5 | Alta | Quais serviços e tipos de instrumento foram mais frequentes? | Como analista, quero classificar os registros por serviço, espécie e item para compreender o perfil técnico da demanda. | 6h | 01 |
+| 6 | Alta | Quais resultados e irregularidades foram encontrados nas fiscalizações? | Como gestor, quero analisar aprovações, reprovações, interdições e verificações não realizadas por município e tipo de instrumento. | 6h | 01 |
+| 7 | Alta | Como a demanda variou ao longo do período analisado? | Como analista, quero comparar meses, dias da semana e estabelecimentos revisitados para identificar padrões temporais e recorrências. | 8h | 01 |
+| 8 | Alta | Qual foi o perfil dos roteiros históricos? | Como planejador, quero analisar a quantidade de endereços, instrumentos e o intervalo operacional de cada roteiro para compreender sua configuração. | 8h | 01 |
+| 9 | Alta | Quais indicadores representam o desempenho da operação histórica? | Como gestor, quero acompanhar indicadores de equipes, demanda, carga e resultados para avaliar o cenário histórico. | 8h | 01 |
+| 10 | Média | Como visualizar e disponibilizar os resultados da análise histórica? | Como usuário, quero consultar um dashboard com filtros e exportar os resultados para apoiar análises, apresentações e decisões. | 12h | 01 |
 
 ## 🧮 Otimização da operação
 
 | Rank | Prioridade | Pergunta | User Story | Estimativa | Sprint |
 |-----:|------------|----------|------------|------------|--------|
-| 11 | Alta | Como representar geograficamente os pontos de fiscalização? | Como analista, quero geocodificar os endereços e visualizá-los em um mapa para compreender sua distribuição territorial. | [DEFINIR] | [DEFINIR] |
-| 12 | Alta | Como calcular as distâncias e os tempos entre os pontos? | Como planejador, quero construir uma matriz considerando fiscalizações e bases operacionais para calcular os deslocamentos. | [DEFINIR] | [DEFINIR] |
-| 13 | Alta | Quais capacidades e restrições operacionais devem ser consideradas? | Como gestor, quero definir jornadas, bases, disponibilidade, especializações e limites das equipes para garantir soluções viáveis. | [DEFINIR] | [DEFINIR] |
-| 14 | Alta | Como representar matematicamente o problema de otimização? | Como planejador, quero definir objetivos, variáveis e restrições para formular o problema em Pesquisa Operacional. | [DEFINIR] | [DEFINIR] |
-| 15 | Alta | Como implementar e validar o modelo de otimização? | Como desenvolvedor, quero implementar o modelo em Python e testar seus resultados para gerar soluções consistentes. | [DEFINIR] | [DEFINIR] |
-| 16 | Alta | Qual é a melhor distribuição das fiscalizações entre as equipes? | Como planejador, quero agrupar e distribuir as fiscalizações para reduzir deslocamentos e melhorar a utilização das equipes. | [DEFINIR] | [DEFINIR] |
-| 17 | Alta | Qual é a melhor sequência de visitas para cada equipe? | Como planejador, quero gerar roteiros otimizados para reduzir quilômetros e tempo de deslocamento. | [DEFINIR] | [DEFINIR] |
-| 18 | Alta | Como equilibrar a carga de trabalho no cenário otimizado? | Como gestor, quero distribuir as atividades considerando visitas, instrumentos, tempo e deslocamento para evitar desequilíbrios. | [DEFINIR] | [DEFINIR] |
-| 19 | Média | Como diferentes cenários afetam o planejamento das equipes? | Como planejador, quero simular mudanças na quantidade de equipes, capacidade e restrições para avaliar alternativas operacionais. | [DEFINIR] | [DEFINIR] |
-| 20 | Alta | Quais ganhos são obtidos ao comparar os cenários histórico e otimizado? | Como gestor, quero comparar distância, tempo, carga, cobertura e atendimentos para avaliar os benefícios e as limitações da otimização. | [DEFINIR] | [DEFINIR] |
+| 11 | Alta | Como representar geograficamente os pontos de fiscalização? | Como analista, quero geocodificar os endereços e visualizá-los em um mapa para compreender sua distribuição territorial. | 16h | 02 |
+| 12 | Alta | Como calcular as distâncias e os tempos entre os pontos? | Como planejador, quero construir uma matriz considerando fiscalizações e bases operacionais para calcular os deslocamentos. | 16h | 02 |
+| 13 | Alta | Quais capacidades e restrições operacionais devem ser consideradas? | Como gestor, quero definir jornadas, bases, disponibilidade, especializações e limites das equipes para garantir soluções viáveis. | 10h | 02 |
+| 14 | Alta | Como representar matematicamente o problema de otimização? | Como planejador, quero definir objetivos, variáveis e restrições para formular o problema em Pesquisa Operacional. | 16h | 02 |
+| 15 | Alta | Como implementar e validar o modelo de otimização? | Como desenvolvedor, quero implementar o modelo em Python e testar seus resultados para gerar soluções consistentes. | 20h | 02 |
+| 16 | Alta | Qual é a melhor distribuição das fiscalizações entre as equipes? | Como planejador, quero agrupar e distribuir as fiscalizações para reduzir deslocamentos e melhorar a utilização das equipes. | 16h | 03 |
+| 17 | Alta | Qual é a melhor sequência de visitas para cada equipe? | Como planejador, quero gerar roteiros otimizados para reduzir quilômetros e tempo de deslocamento. | 20h | 03 |
+| 18 | Alta | Como equilibrar a carga de trabalho no cenário otimizado? | Como gestor, quero distribuir as atividades considerando visitas, instrumentos, tempo e deslocamento para evitar desequilíbrios. | 10h | 03 |
+| 19 | Média | Como diferentes cenários afetam o planejamento das equipes? | Como planejador, quero simular mudanças na quantidade de equipes, capacidade e restrições para avaliar alternativas operacionais. | 12h | 03 |
+| 20 | Alta | Quais ganhos são obtidos ao comparar os cenários histórico e otimizado? | Como gestor, quero comparar distância, tempo, carga, cobertura e atendimentos para avaliar os benefícios e as limitações da otimização. | 16h | 03 |
 
 ---
 
