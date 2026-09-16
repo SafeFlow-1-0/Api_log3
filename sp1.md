@@ -1,5 +1,17 @@
 # 📌 MVP - SafeFlow
 
+### 📌 Resumo da Sprint 01
+
+| Indicador | Planejamento |
+|-----------|--------------|
+| Entrega prevista | 02/10/2026 |
+| User Stories planejadas | 10 |
+| Prioridade alta | 9 |
+| Prioridade média | 1 |
+| Esforço total estimado | 83 horas |
+| Objetivo da entrega | Diagnóstico histórico e dashboard inicial |
+
+> As estimativas representam o esforço total previsto da equipe e poderão ser revisadas durante a execução.
 ## 🎯 Objetivo do MVP
  
 - **Qual problema resolve?**  
@@ -88,12 +100,21 @@
 
 ## 📊 Critérios de Aceitação
 
-  * A base histórica deve possuir processo de tratamento documentado e reproduzível;
-  * Dados ausentes, duplicados e inconsistentes devem ser identificados e tratados de acordo com regras documentadas;
-  * Instrumentos, visitas e roteiros devem possuir critérios claros de identificação;
-  * Os principais indicadores da operação histórica devem ser calculados a partir da base tratada;
-  * As análises devem permitir compreender a distribuição das equipes, da demanda e da carga de trabalho;
-  * Os resultados apresentados devem ser rastreáveis até os dados utilizados no processamento.
+- [ ] A base histórica possui um processo de tratamento documentado e reproduzível;
+- [ ] Dados ausentes, duplicados e inconsistentes foram identificados e tratados conforme regras documentadas;
+- [ ] Instrumentos, visitas e roteiros possuem critérios claros de identificação e contabilização;
+- [ ] A distribuição histórica de fiscais e motoristas pode ser analisada;
+- [ ] A carga de trabalho pode ser comparada entre equipes;
+- [ ] A demanda por município pode ser identificada e visualizada;
+- [ ] Os serviços e tipos de instrumento mais frequentes podem ser identificados;
+- [ ] Os resultados das fiscalizações e as irregularidades podem ser analisados;
+- [ ] A variação da demanda ao longo do período pode ser visualizada;
+- [ ] O perfil dos roteiros históricos pode ser analisado com os dados disponíveis;
+- [ ] Os principais indicadores históricos foram calculados a partir da base tratada;
+- [ ] O dashboard permite consultar os resultados por meio de filtros e exportá-los;
+- [ ] Os resultados apresentados podem ser rastreados até os dados utilizados no processamento.
+
+> A Sprint 01 será considerada concluída após o atendimento dos critérios aplicáveis e a validação dos resultados pela equipe.
 
 ---
 
