@@ -72,8 +72,6 @@
 | 9 | Alta | Quais indicadores representam o desempenho da operação histórica? | Como gestor, quero acompanhar indicadores de equipes, demanda, carga e resultados para avaliar o cenário histórico. | 8h |
 | 10 | Média | Como visualizar e disponibilizar os resultados da análise histórica? | Como usuário, quero consultar um dashboard com filtros e exportar os resultados para apoiar análises, apresentações e decisões. | 12h |
 
-**Estimativa total da Sprint 01: 83 horas.**
-
 ---
 
 ## 📅 Sprint(s) Relacionadas
