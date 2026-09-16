@@ -57,16 +57,22 @@
 </p>
 
 ---
-
 ## 🔑 User Stories (Backlog do MVP)
 
 | Rank | Prioridade | Pergunta | User Story | Estimativa |
 |------|------------|----------|------------|------------|
-| [ ] | [ ] | [PREENCHER] | [PREENCHER] | [ ] |
-| [ ] | [ ] | [PREENCHER] | [PREENCHER] | [ ] |
-| [ ] | [ ] | [PREENCHER] | [PREENCHER] | [ ] |
-| [ ] | [ ] | [PREENCHER] | [PREENCHER] | [ ] |
-| [ ] | [ ] | [PREENCHER] | [PREENCHER] | [ ] |
+| 1 | Alta | Como preparar e validar a base histórica para análise? | Como analista, quero tratar, padronizar e validar os dados, diferenciando instrumentos, visitas e roteiros, para garantir resultados confiáveis. | 16h |
+| 2 | Alta | Como fiscais e motoristas foram distribuídos historicamente? | Como gestor, quero visualizar a formação das equipes e os roteiros realizados para compreender como os profissionais foram distribuídos. | 6h |
+| 3 | Alta | Como a carga de trabalho foi distribuída entre as equipes? | Como gestor, quero comparar roteiros, visitas e instrumentos por equipe para identificar sobrecarga ou subutilização. | 8h |
+| 4 | Alta | Quais municípios concentraram a maior demanda? | Como planejador, quero analisar visitas e instrumentos por município para identificar a concentração territorial das fiscalizações. | 5h |
+| 5 | Alta | Quais serviços e tipos de instrumento foram mais frequentes? | Como analista, quero classificar os registros por serviço, espécie e item para compreender o perfil técnico da demanda. | 6h |
+| 6 | Alta | Quais resultados e irregularidades foram encontrados nas fiscalizações? | Como gestor, quero analisar aprovações, reprovações, interdições e verificações não realizadas por município e tipo de instrumento. | 6h |
+| 7 | Alta | Como a demanda variou ao longo do período analisado? | Como analista, quero comparar meses, dias da semana e estabelecimentos revisitados para identificar padrões temporais e recorrências. | 8h |
+| 8 | Alta | Qual foi o perfil dos roteiros históricos? | Como planejador, quero analisar a quantidade de endereços, instrumentos e o intervalo operacional de cada roteiro para compreender sua configuração. | 8h |
+| 9 | Alta | Quais indicadores representam o desempenho da operação histórica? | Como gestor, quero acompanhar indicadores de equipes, demanda, carga e resultados para avaliar o cenário histórico. | 8h |
+| 10 | Média | Como visualizar e disponibilizar os resultados da análise histórica? | Como usuário, quero consultar um dashboard com filtros e exportar os resultados para apoiar análises, apresentações e decisões. | 12h |
+
+**Estimativa total da Sprint 01: 83 horas.**
 
 ---
 
@@ -78,7 +84,7 @@
 | 01 | Estruturação dos dados de instrumentos, visitas e roteiros | Não iniciada |
 | 01 | Análise da distribuição das equipes e da demanda | Não iniciada |
 | 01 | Construção dos indicadores históricos | Não iniciada |
-| 01 | Visualização inicial dos resultados | Não iniciada |
+| 01 | Visualização inicial dos resultados | Em desenvolvimento |
 
 ---
 
