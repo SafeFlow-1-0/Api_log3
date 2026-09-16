@@ -23,6 +23,17 @@ O SafeFlow tem como objetivo analisar os dados históricos da regional do IPEM-S
 | 📅 Registro das Sprints | [Clique aqui](#sprints) |
 ---
 
+## 🚀 Projeto Surpresa
+
+> **Uma nova possibilidade está sendo estudada para o SafeFlow.**
+>
+> Além das entregas previstas na API, estamos explorando o desenvolvimento de uma solução digital para apoiar o planejamento geográfico, a otimização dos deslocamentos e o acompanhamento das operações de fiscalização do IPEM-SP.
+>
+> O formato da solução — site, aplicativo ou plataforma híbrida — ainda será definido.
+
+### 🔍 [Conheça a proposta em desenvolvimento](projeto-surpresa.md)
+
+---
 <a name="projeto"></a>
 
 # 📊 Projeto
