@@ -272,6 +272,10 @@ flowchart LR
 | Feira de Soluções | 03/12/2026 | Não iniciada | — |
 
 ---
+
+# 📝 Observação
+
+As restrições operacionais, a composição das equipes e os critérios do modelo de otimização serão detalhados durante as próximas etapas, conforme a validação com o IPEM-SP.
 ---
 
 ## 🚀 Projeto Surpresa
@@ -285,7 +289,3 @@ flowchart LR
 ### 🔍 [Conheça a proposta em desenvolvimento](projeto-surpresa.md)
 
 ---
-
-# 📝 Observação
-
-As restrições operacionais, a composição das equipes e os critérios do modelo de otimização serão detalhados durante as próximas etapas, conforme a validação com o IPEM-SP.
