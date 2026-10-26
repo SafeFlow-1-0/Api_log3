@@ -158,17 +158,43 @@ A solução deverá contemplar:
 
 <a name="tecnologias"></a>
 
-# 🛠 Tecnologias Previstas
+# 🛠 Tecnologias Utilizadas e Previstas
 
-- **Python e Pandas** — tratamento e análise dos dados;
-- **OR-Tools ou Pyomo** — modelagem e otimização;
-- **Serviço de geocodificação** — conversão dos endereços em coordenadas;
-- **Matriz de distâncias e tempos** — cálculo dos deslocamentos;
-- **BI** — dashboards histórico e comparativo;
-- **GitHub** — versionamento e documentação;
-- **Office** — apresentações e relatório técnico.
+### 🐍 Tratamento e Análise de Dados
 
-> As ferramentas definitivas de geocodificação, otimização e visualização serão escolhidas durante o desenvolvimento.
+- **Python** — processamento, tratamento e automação dos dados;
+- **Pandas** — limpeza, padronização e análise da base histórica;
+- **Power BI** — construção de indicadores e dashboards analíticos.
+
+### 🗺️ Geocodificação e Mapas
+
+- **HTML, CSS e JavaScript** — desenvolvimento da interface web e do Mapa Histórico;
+- **Leaflet.js** — visualização interativa dos pontos de fiscalização;
+- **GeoJSON** — representação de informações geográficas;
+- **OpenStreetMap** — dados cartográficos e referência geográfica;
+- **Nominatim** — geocodificação de endereços;
+- **Photon** — serviço complementar de geocodificação;
+- **TomTom** — geocodificação e serviços geográficos utilizados no projeto.
+
+### 🚗 Distâncias e Rotas
+
+- **TomTom Routing API** — cálculo de distâncias rodoviárias e tempos estimados de deslocamento;
+- **OSRM** — utilizado em testes anteriores de roteamento;
+- **Matriz de distâncias e tempos** — estrutura de dados para apoiar o planejamento e a otimização das fiscalizações.
+
+### 🧮 Pesquisa Operacional e Otimização
+
+- **Pyomo** — ferramenta definida para a modelagem matemática e otimização em Python;
+- **Solver de otimização** — solucionador matemático a ser definido e configurado.
+
+### 📂 Desenvolvimento e Documentação
+
+- **GitHub** — versionamento, organização das Sprints e documentação técnica;
+- **Microsoft Office** — elaboração de relatórios, apresentações e documentos do projeto.
+
+> **Observação:** o Mapa Histórico já utiliza tecnologias de geocodificação e visualização geográfica. Na Sprint 11, a TomTom Routing API foi utilizada para calcular distâncias rodoviárias e tempos estimados entre a sede do IPEM-SP e os 1.583 pontos históricos Classe A, mantendo 18 relações sinalizadas para revisão de qualidade.
+>
+> A implementação do modelo matemático com Pyomo e a definição do solver pertencem à etapa de otimização. Os resultados de roteamento já calculados não devem ser confundidos com rotas otimizadas das equipes.
 
 ---
 
