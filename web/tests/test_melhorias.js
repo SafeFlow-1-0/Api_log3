@@ -1,0 +1,11 @@
+const assert = require('node:assert/strict');
+const Core = require('../js/filter-core.js');
+const feature = {properties:{id_endereco:'X'}};
+const data = {status:'VERIFICADO', por_fiscal_ano:[{fiscal:'A',ano:2018,dias_distintos:1,apenas_um_dia:true},{fiscal:'B',ano:2018,dias_distintos:2,apenas_um_dia:false}],por_id_endereco:{X:[{fiscal:'A',data:'2018-01-01'},{fiscal:'B',data:'2018-02-02'}]}};
+assert.equal(Core.individualMatches(feature,{anoFiscal:'2018',grupoFiscal:'um',fiscal:'A',dataInicial:'2018-02-01'},data),false);
+assert.equal(Core.individualMatches(feature,{anoFiscal:'2018',grupoFiscal:'um',fiscal:'A'},data),true);
+assert.equal(Core.individualMatches(feature,{anoFiscal:'2019',grupoFiscal:'um'},data),false);
+assert.equal(Core.individualMatches(feature,{grupoFiscal:'um'},{status:'FONTE_INDIVIDUAL_AUSENTE'}),false);
+const polygon={geometry:{type:'MultiPolygon',coordinates:[[[[0,0],[3,0],[3,3],[0,0]],[[1,1],[2,1],[1,2],[1,1]]],[[[4,4],[5,4],[5,5],[4,4]]]]}};
+assert.equal(Core.municipalityMask(polygon).geometry.coordinates.length,4);
+console.log('OK: associação individual, ano, indisponibilidade e máscara multipolígono com ilhas/lacunas');

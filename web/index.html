@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Consulta histórica geográfica do SafeFlow." />
+    <title>SafeFlow — Mapa Histórico de Verificações</title>
+    <link rel="icon" href="assets/safeflow-icon.png" type="image/png" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css" />
+    <link rel="stylesheet" href="css/map.css?v=homologacao-12" />
+  </head>
+  <body>
+    <a class="skip-link" href="#mapa">Ir para o mapa</a>
+    <main class="app-shell">
+      <header class="app-header">
+        <div class="brand-block"><span class="brand-kicker">SafeFlow</span><h1>Mapa Histórico de Verificações</h1></div>
+        <div class="header-meta" aria-live="polite"><span class="status-pill"><i aria-hidden="true"></i> Classe A</span><span class="point-counter" id="point-counter">Carregando pontos…</span></div>
+      </header>
+      <section class="filter-console" aria-label="Filtros da consulta histórica">
+        <div class="filter-grid">
+          <label>Fiscal<select id="filter-fiscal"><option value="">Todos os fiscais</option></select></label>
+          <label>Ano do fiscal<select id="filter-ano-fiscal" disabled><option value="">Todos os anos</option></select></label>
+          <label>Dias por fiscal/ano<select id="filter-grupo-fiscal" disabled><option value="">Todos os grupos</option><option value="um">Apenas 1 dia distinto</option><option value="mais">Mais de 1 dia distinto</option></select></label>
+          <label>Motorista<select id="filter-motorista"><option value="">Todos os motoristas</option></select></label>
+          <label>Município<select id="filter-municipio"><option value="">Todos os municípios</option></select></label>
+          <label>Data inicial<input id="filter-data-inicial" type="date" /></label>
+          <label>Data final<input id="filter-data-final" type="date" /></label>
+          <label>Raio da sede<select id="filter-raio"><option value="">Sem limite de raio</option><option value="10">Até 10 km</option><option value="25">Até 25 km</option><option value="50">Até 50 km</option><option value="100">Até 100 km</option></select></label>
+          <label class="search-field">Busca histórica<input id="filter-busca" type="search" placeholder="Buscar estabelecimento ou endereço" autocomplete="off" /></label>
+        </div>
+        <div class="fiscal-days-summary"><p id="fiscal-days-note" role="status"></p><details><summary>Dias registrados por fiscal e ano</summary><ul id="fiscal-days-list"></ul></details></div>
+        <div class="filter-state">
+          <div><span class="view-label" id="view-label">Visão geral</span><div class="filter-chips" id="filter-chips" aria-live="polite"></div></div>
+          <button class="clear-button" id="clear-filters" type="button" disabled>Limpar filtros</button>
+        </div>
+      </section>
+      <section class="workspace" aria-label="Mapa e detalhes históricos">
+        <div class="map-region">
+          <div id="mapa" aria-label="Mapa dos endereços históricos consolidados"></div>
+          <div class="map-message" id="map-message" role="status"><span class="spinner" aria-hidden="true"></span><span id="map-message-text">Carregando dados cartográficos…</span></div>
+          <aside class="focus-card" id="focus-card" hidden aria-live="polite"><div><span class="focus-kicker">Ponto selecionado</span><strong id="focus-card-title">Não informado</strong><span id="focus-card-municipality">Não informado</span></div><div class="focus-metrics"><span><b id="focus-card-distance">—</b> rodoviários</span><span><b id="focus-card-time">—</b> estimados</span></div><button id="restore-all" type="button">Voltar para todos os pontos</button></aside>
+          <aside class="legend" aria-label="Legenda do mapa">
+            <div class="legend-heading"><div class="legend-title">Legenda</div><span class="legend-mode" id="legend-mode">Visão geral</span></div>
+            <div class="legend-item"><span class="legend-marker general" aria-hidden="true"></span><span id="legend-history-text">Endereço consolidado — Classe A</span></div>
+            <div class="legend-item" id="legend-reference" hidden><span class="legend-line" aria-hidden="true"></span><span>Ligação em linha reta — referência visual</span></div>
+            <div class="legend-item"><span class="legend-marker sede" aria-hidden="true">▦</span><span>Sede IPEM-SP — referência operacional</span></div>
+            <p>Os pontos representam endereços históricos consolidados. Dois cliques isolam um ponto. Não representam sequência de visitas nem rotas.</p>
+            <p id="boundary-note" hidden></p>
+            <p class="radius-note" id="radius-note" hidden>Raio geográfico em linha reta.</p>
+          </aside>
+        </div>
+        <aside class="detail-panel" id="detail-panel" aria-live="polite">
+          <div class="panel-empty" id="panel-empty"><div class="empty-icon" aria-hidden="true">⌖</div><p class="eyebrow">Consulta histórica</p><h2>Selecione um ponto</h2><p>Clique em um marcador para consultar os dados. Dê dois cliques para exibir somente o ponto selecionado e a sede.</p></div>
+          <article class="detail-content" id="detail-content" hidden>
+            <header class="detail-header"><p class="eyebrow">Endereço consolidado</p><h2 id="detail-title">Não informado</h2><p class="detail-address" id="detail-address">Não informado</p><div class="quality-row"><span class="quality-badge">Classe A</span><span id="detail-status">Não informado</span></div></header>
+            <section class="detail-section" aria-labelledby="historico-title"><h3 id="historico-title">Histórico registrado</h3><dl class="metric-grid"><div><dt>Primeiro registro</dt><dd id="first-date">Não informado</dd></div><div><dt>Último registro</dt><dd id="last-date">Não informado</dd></div><div><dt>Datas distintas</dt><dd id="date-count">0</dd></div><div><dt>RLDs</dt><dd id="rld-count">0</dd></div><div class="metric-wide"><dt>Itens registrados</dt><dd id="item-count">0</dd></div></dl></section>
+            <section class="detail-section route-summary" aria-labelledby="route-title"><h3 id="route-title">A partir da sede do IPEM</h3><dl class="metric-grid"><div><dt>Distância rodoviária estimada</dt><dd id="road-distance">Indisponível</dd></div><div><dt>Tempo estimado da sede</dt><dd id="estimated-time">Indisponível</dd></div><div class="metric-wide secondary-metric"><dt>Distância em linha reta</dt><dd id="straight-distance">Indisponível</dd></div></dl><p class="estimate-note" id="route-note">Estimativas atuais do provedor; não representam deslocamento histórico realizado.</p></section>
+            <section class="detail-section" aria-labelledby="relacoes-title"><h3 id="relacoes-title">Relações na base</h3><div class="relation-group"><span>Estabelecimento(s)</span><ul id="establishments-list"></ul></div><div class="relation-group"><span>Fiscal(is)</span><ul id="inspectors-list"></ul></div><div class="relation-group"><span>Motorista(s)</span><ul id="drivers-list"></ul></div></section>
+            <footer class="provenance"><span>Rastreabilidade</span><code id="provenance-id">ID_ENDERECO: Não informado</code></footer>
+          </article>
+          <article class="detail-content sede-content" id="sede-content" hidden>
+            <header class="detail-header"><p class="eyebrow">Referência operacional</p><h2 id="sede-title">IPEM-SP</h2><p class="detail-address" id="sede-address"></p><div class="quality-row"><span class="sede-badge">Sede validada</span></div></header>
+            <section class="detail-section"><h3>Função no mapa</h3><p class="body-copy">Referência operacional fixa. Não é fiscalização, visita, estabelecimento fiscalizado ou item histórico.</p></section>
+            <footer class="provenance"><span>Rastreabilidade</span><code>SEDE_001 · Google Maps · 25/09/2026</code></footer>
+          </article>
+        </aside>
+      </section>
+    </main>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+    <script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
+    <script src="js/filter-core.js?v=homologacao-12"></script>
+    <script src="js/map.js?v=homologacao-12"></script>
+  </body>
+</html>
